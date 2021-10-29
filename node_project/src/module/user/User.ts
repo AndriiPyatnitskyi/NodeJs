@@ -1,7 +1,13 @@
 export class User{
+    private readonly name: String;
+
     constructor(name: String) {
-        console.log(`User ${name} created`);
+        this.name = name;
     }
+
+    getName () {
+        return this.name;
+    };
 }
 
 
