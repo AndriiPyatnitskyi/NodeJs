@@ -1,4 +1,4 @@
-import {Product} from "../../module/user/Product";
+import {Product} from "../../module/product/Product";
 
 let arraySize = 1000;
 let products = new Array(0);
